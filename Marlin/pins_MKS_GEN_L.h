@@ -31,9 +31,12 @@
 #define BOARD_NAME "MKS GEN L"
 
 //
-// Heaters / Fans
+// Heaters / Fan
 //
 // Power outputs EFBF or EFBE
 #define MOSFET_D_PIN 7
+
+#define SERVO0_PIN       11 // free for BLTouch/3D-Touch
+
 
 #include "pins_RAMPS.h"
